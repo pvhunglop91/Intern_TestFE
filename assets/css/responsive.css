@@ -14,25 +14,110 @@
 } */
 
 
-/* 0-1023 */
-@media only screen and (max-width: 1023px){
+
+
+/*701-1023*/
+@media only screen and (min-width: 701px) and (max-width: 1023px) {
     .container{
         width: 100%;
+        position: relative;
     }
-}
+    .content {
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        background: #FFFFFF;
+    }
 
-/* 701-1023 */
+    .content-up{
+        text-align: center;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+    .content-up-text{
+        width: 100%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18.75px;
+        display: inline-block;
+        padding-bottom: 38px;
+    color: #000000;
+    }
+    .lorem-header{
+        font-size: 17px;
+    }
+    .lorem-item{
+        text-align: center;
+    }
+    .lorem-text-content{
+        display: none;
+    }
+    .icon{
+        float: right;
+        margin-right: 18%;
+    }
+    .wrapper{
+        width: 70%;
+        
+    }
+    .footer{
+        width: 100%;
+        /* justify-items: center; */
+    }
+    
+}   
 
-@media only screen and (min-width: 701px) and (max-width: 1023px)   {
+/*0-700*/
+@media only screen and (max-width: 700px) {
     .container{
         width: 100%;
+        position: relative;
     }
-}
-
-/* 0-700 */
-
-@media only screen and (max-width: 700px){
-    .container{
+    .content {
         width: 100%;
+        position: absolute;
+        left: 0px;
+        background: #FFFFFF;
     }
-}
+
+    .content-up{
+        text-align: center;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+    .content-up-text{
+        width: 100%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18.75px;
+        display: inline-block;
+        padding-bottom: 38px;
+    color: #000000;
+    }
+    .lorem-header{
+        font-size: 17px;
+    }
+    .lorem-item{
+        text-align: center;
+    }
+    .lorem-text-content{
+        display: none;
+    }
+    .icon{
+        /* float: right; */
+        margin-left: 5%;
+    }
+    .wrapper{
+        width: 70%;
+        
+    }
+    .footer{
+        width: 100%;
+        /* justify-items: center; */
+    }
+    
+}   
