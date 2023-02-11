@@ -1,0 +1,38 @@
+/* Mobile width < 740px */
+/* @media only screen and (max-width: 46.1875em){
+    
+} */
+
+/* Tablet width >= 740px and < 1024px */
+/* @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+
+} */
+
+/* PC width >= 1024px */
+/* @media only screen and (min-width: 64em){
+
+} */
+
+
+/* 0-1023 */
+@media only screen and (max-width: 1023px){
+    .container{
+        width: 100%;
+    }
+}
+
+/* 701-1023 */
+
+@media only screen and (min-width: 701px) and (max-width: 1023px)   {
+    .container{
+        width: 100%;
+    }
+}
+
+/* 0-700 */
+
+@media only screen and (max-width: 700px){
+    .container{
+        width: 100%;
+    }
+}

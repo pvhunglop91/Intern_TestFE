@@ -1,0 +1,177 @@
+.sidebar {
+    width: 150px;
+    background-color: #191718;
+    height: 935px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.sidebar__list {
+    list-style: none;
+    /* flex-direction: column;
+    display: flex; */
+}
+
+.sidebar__item {
+    /* padding: 14px 91px 11px 16px; */
+    padding-top: 14px;
+    padding-left: 16px;
+    padding-bottom: 11px;
+    font-weight: 700;
+    color: #AAAAAA;
+    border-bottom: solid 1px #5C5C5C;
+    height: 44px;
+    width: 100%;
+
+}
+
+/* .sidebar__item, */
+.sidebar__link {
+    /* flex-direction: column; */
+    display: block;
+    text-decoration: none;
+    color: #AAAAAA;
+    height: 100%;
+    width: 100%;
+    line-height: 18.75px;
+
+}
+
+.sidebar__item:hover,
+.sidebar__link:hover {
+    color: #fff;
+    background-color: #5C5C5C;
+    cursor: pointer;
+
+}
+
+.text-white {
+    color: #fff;
+}
+
+.content {
+    height: 935px;
+    width: 1768px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+.logo,
+.top-logo {
+    width: 310px;
+    height: 122px;
+    margin: 20px auto 30px;
+}
+
+.content-up {
+    /* justify-items: center; */
+    /* align-items: center; */
+    text-align: center;
+    padding-left: 269px;
+    padding-right: 269px;
+    padding-bottom: 38px;
+    padding-top: 38px;
+    background-color: #EFEFEF;
+}
+
+.content-up-header {
+    width: 241px;
+    height: 21px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #000000;
+    margin: auto;
+    margin-bottom: 18px;
+
+
+}
+
+.content-up-text {
+    width: 972px;
+    height: 95px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    /* margin: 0px 269px; */
+}
+
+.icon {
+    /* margin-left: auto;
+    margin-right: 9px; */
+    width: 128px;
+    height: 128px;
+    /* display: inline; */
+    float: left;
+    background-color: #fff;
+    margin-right: 16px;
+    margin-bottom: 6px;
+}
+
+.lorem__item {
+    width: 470px;
+    height: 252px;
+    gap: 50px;
+}
+
+.lorem-info {
+    display: inline;
+}
+
+.lorem__list {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lorem__header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    margin-bottom: 18px;
+}
+
+.footer {
+    position: absolute;
+    top: 856px;
+    left: 0px;
+    width: 1768px;
+    height: 79px;
+    border-top: solid 1px #DEDEDE;
+}
+
+.footer-text {
+    /* width: 125px;
+    height: 19px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #3E3E3E;
+}
